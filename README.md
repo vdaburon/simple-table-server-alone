@@ -258,7 +258,7 @@ If NOT find return title KO and message "Error : Not find !" in the body
 </html> 
 ```
 ### LENGTH - Return the number of remaining lines of a linked list
-http://hostname:port/sts/**LENGTH**?FILENAME=logins.csv<br/>
+http&#58;//hostname:port/sts/**LENGTH**?FILENAME=logins.csv<br/>
 HTML format:
 ```HTML
 <html><title>OK</title>
