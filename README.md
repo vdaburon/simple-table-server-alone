@@ -295,7 +295,7 @@ dossier.csv = 1<br />
 ### SAVE - Save the specified linked list in a file to the datasetDirectory location
 http&#58;//hostname:port/sts/**SAVE**?FILENAME=logins.csv
 
-If addTimestamp is set to true then a timestamp will be added to the filename, the file is stored in datasetDirectory or if null in the &lt;JMETER_HOME&gt;/bin directory:<br/>
+If addTimestamp is set to true then a timestamp will be added to the filename, the file is stored in datasetDirectory or if null in directory: : System.getProperty("user.dir")<br/>
 20260120T16h33m27s.logins.csv
 
 You can force the addTimestamp value with parameter ADD_TIMESTAMP in the url like :
@@ -531,7 +531,6 @@ start-sts.sh (Linux OS)
 
 The default port is 9191, it can be changed by the cli argument<br/>
  -port 9191<br/>
-If port=0 then the STS does not start when launching JMeter in CLI mode.
 
 The cli argument -addTimestamp true indicates if the backup of the file (eg info.csv) will be prefixed by the date and time, eg: 20260112T13h00m50s.info.csv otherwise addTimestamp=false writes/overwrites the file info.csv<br/>
  -addTimestamp true
