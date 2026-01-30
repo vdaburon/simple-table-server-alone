@@ -16,7 +16,7 @@
 - Default port : 9191
 - Default datasetDirectory : current directory (System.getProperty("user.dir")) 
 
-Note: 
+Notes: 
 - Java must be JDK/JRE : version 17 or superior.
 - Alone because this tool don't need Apache JMeter, it works by itself or alone.
 
