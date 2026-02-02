@@ -52,13 +52,14 @@ Commands are :
  - INITFILE - load a csv file in a memory list of lines
  - READ - read a line
  - READMULTI - read multi lines
+ - FIND - find a line in a list
  - ADD - add a line in a list
  - SAVE - save the list to a file
- - FIND - find a line in a list
  - LENGTH - the length of a list
  - STATUS - display the list of loaded files and the number of remaining lines
  - RESET - remove all elements from the specified list
  - CONFIG - display STS configuration
+ - STOP - shutdown the Simple Table Server
 
 The calls are atomic (with **synchronized**) => Reading or adding goes to the end of the current processing before processing the next request.
 
