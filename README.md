@@ -35,6 +35,9 @@ Command-line arguments:<br/>
 -stopExit &lt;true/false&gt; If true STOP command stops STS and call System.exit(0), if false STOP command stops STS Server but don't call exit, default true
 </pre>
 
+E.g start STS with cli arguments:<br/>
+<code>java -jar simple-table-server-alone-&lt;version&gt;-jar-with-dependencies.jar -port 9191 -datasetDirectory c:/data -daemon true</code> <br/>
+
 ### STS Help Page with use
 The URL of an STS command is of the form:<br/>
 http&#58;&lt;HOSTNAME&gt;:&lt;PORT&gt;/sts/&lt;COMMAND&gt;?&lt;PARAMETERS&gt;<br/>
